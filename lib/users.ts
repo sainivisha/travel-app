@@ -1,0 +1,22 @@
+export const users = [
+  {
+    id: 1,
+    name: "Admin",
+    email: "admin@travel.com",
+    password: "admin123",
+    role: "user",
+  },
+  {
+    id: 2,
+    name: "Rohit",
+    email: "rohit@travel.com",
+    password: "user123",
+    role: "user",
+  },{
+    id: 3,
+    name: "Rahul",
+    email: "rahul@travel.com",
+    password: "user123",
+    role: "user",
+  },
+]

@@ -1,0 +1,146 @@
+[
+  {
+    "id": 2,
+    "name": "Europe",
+    "slug": "europe",
+    "description": "Historic cities, art, and culture",
+    "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b",
+    "parentId": null,
+    "createdAt": "2026-03-19T10:00:00Z"
+  },
+  {
+    "id": 3,
+    "name": "India",
+    "slug": "india",
+    "description": "A land of culture, heritage, and diversity",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da",
+    "parentId": 1,
+    "createdAt": "2026-03-19T10:00:00Z"
+  },
+  {
+    "id": 4,
+    "name": "Nepal",
+    "slug": "nepal",
+    "description": "Home to the Himalayas and Mount Everest",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+    "parentId": 1,
+    "createdAt": "2026-03-19T10:00:00Z"
+  },
+  {
+    "id": 5,
+    "name": "Sri Lanka",
+    "slug": "sri-lanka",
+    "description": "Tropical paradise with beaches and wildlife",
+    "image": "https://images.unsplash.com/photo-1588591790958-8b6c2b9c8f7c",
+    "parentId": 1,
+    "createdAt": "2026-03-19T10:00:00Z"
+  },
+  {
+    "id": 6,
+    "name": "Cambodia",
+    "slug": "cambodia",
+    "description": "Ancient temples and vibrant culture",
+    "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+    "parentId": 1,
+    "createdAt": "2026-03-19T10:00:00Z"
+  },
+  {
+    "id": 7,
+    "name": "Thailand",
+    "slug": "thailand",
+    "description": "Beaches, nightlife, and temples",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "parentId": 1,
+    "createdAt": "2026-03-19T10:00:00Z"
+  },
+  {
+    "id": 8,
+    "name": "France",
+    "slug": "france",
+    "description": "Romantic cities and fine cuisine",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+    "parentId": 2,
+    "createdAt": "2026-03-19T10:00:00Z"
+  },
+  {
+    "id": 9,
+    "name": "Italy",
+    "slug": "italy",
+    "description": "Historic ruins and beautiful landscapes",
+    "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad",
+    "parentId": 2,
+    "createdAt": "2026-03-19T10:00:00Z"
+  },
+  {
+    "id": 10,
+    "name": "Delhi",
+    "slug": "delhi",
+    "description": "Capital of India",
+    "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5",
+    "parentId": 3,
+    "createdAt": "2026-03-19T10:00:00Z"
+  },
+  {
+    "id": 11,
+    "name": "Jaipur",
+    "slug": "jaipur",
+    "description": "Pink city of India",
+    "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41",
+    "parentId": 3,
+    "createdAt": "2026-03-19T10:00:00Z"
+  },
+  {
+    "id": 12,
+    "name": "Kathmandu",
+    "slug": "kathmandu",
+    "description": "Capital of Nepal",
+    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
+    "parentId": 4,
+    "createdAt": "2026-03-19T10:00:00Z"
+  },
+  {
+    "id": 13,
+    "name": "Siem Reap",
+    "slug": "siem-reap",
+    "description": "Gateway to Angkor Wat",
+    "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+    "parentId": 6,
+    "createdAt": "2026-03-19T10:00:00Z"
+  },
+  {
+    "id": 14,
+    "name": "Phnom Penh",
+    "slug": "phnom-penh",
+    "description": "Capital of Cambodia",
+    "image": "https://images.unsplash.com/photo-1603787081207-362bcef7c144",
+    "parentId": 6,
+    "createdAt": "2026-03-19T10:00:00Z"
+  },
+  {
+    "id": 15,
+    "name": "Bangkok",
+    "slug": "bangkok",
+    "description": "Capital of Thailand",
+    "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365",
+    "parentId": 7,
+    "createdAt": "2026-03-19T10:00:00Z"
+  },
+  {
+    "id": 16,
+    "name": "Paris",
+    "slug": "paris",
+    "description": "City of love",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+    "parentId": 8,
+    "createdAt": "2026-03-19T10:00:00Z"
+  },
+  {
+    "id": 17,
+    "name": "Rome",
+    "slug": "rome",
+    "description": "Historic capital of Italy",
+    "image": "https://images.unsplash.com/photo-1526481280691-3c6c7a7e02d3",
+    "parentId": 9,
+    "createdAt": "2026-03-19T10:00:00Z"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1773815069632,
+    "tourId": 1,
+    "tourTitle": "Angkor Wat Sunrise Tour",
+    "date": "2026-03-20",
+    "guests": 3,
+    "price": 120,
+    "status": "confirmed",
+    "createdAt": "2026-03-18T06:24:29.632Z"
+  },
+  {
+    "id": 1773816221847,
+    "tourId": 1,
+    "tourTitle": "Angkor Wat Sunrise Tour",
+    "date": "2026-03-27",
+    "guests": 5,
+    "price": 120,
+    "status": "confirmed",
+    "createdAt": "2026-03-18T06:43:41.847Z"
+  },
+  {
+    "id": 1773816353124,
+    "tourId": 1773810812486,
+    "tourTitle": "Trip to Kedarnath",
+    "date": "2026-03-27",
+    "guests": 1,
+    "price": 20000,
+    "status": "confirmed",
+    "createdAt": "2026-03-18T06:45:53.124Z"
+  },
+  {
+    "id": 1773849600636,
+    "tourId": 1,
+    "tourTitle": "Angkor Wat Sunrise Tour",
+    "date": "2026-03-27",
+    "guests": 5,
+    "price": 120,
+    "status": "confirmed",
+    "createdAt": "2026-03-18T16:00:00.636Z"
+  }
+]

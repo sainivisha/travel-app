@@ -1,0 +1,26 @@
+[
+    {
+      "name": "Emily Johnson",
+      "location": "United States",
+      "review":
+        "Exploring Cambodia with this tour was unforgettable. Angkor Wat at sunrise was breathtaking!",
+      "image":
+        "https://randomuser.me/api/portraits/women/68.jpg"
+    },
+    {
+      "name": "Daniel Smith",
+      "location": "United Kingdom",
+      "review":
+        "Amazing experience! The guides were knowledgeable and the itinerary was perfectly organized.",
+      "image":
+        "https://randomuser.me/api/portraits/men/32.jpg"
+    },
+    {
+      "name": "Sophia Lee",
+      "location": "Singapore",
+      "review":
+        "Koh Rong beaches were stunning. Everything from booking to travel was seamless.",
+      "image":
+        "https://randomuser.me/api/portraits/women/44.jpg"
+    }
+  ]

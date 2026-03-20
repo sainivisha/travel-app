@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "title": "Delhi Heritage Walk",
+    "slug": "delhi-heritage-walk",
+    "destinationId": 10,
+    "activityIds": [1, 8, 10],
+    "tripTypeIds": [1],
+    "price": 60,
+    "duration": "1 Day",
+    "rating": 4.6,
+    "location": "Delhi, India",
+    "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5",
+    "description": "Explore Old Delhi’s rich history with a guided walking tour through iconic landmarks."
+  },
+  {
+    "id": 2,
+    "title": "Jaipur Royal Palace Tour",
+    "slug": "jaipur-royal-palace-tour",
+    "destinationId": 11,
+    "price": 90,
+    "duration": "1 Day",
+    "rating": 4.7,
+    "location": "Jaipur, India",
+    "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41",
+    "description": "Visit Amber Fort, City Palace, and Hawa Mahal in this royal Jaipur experience."
+  },
+  {
+    "id": 3,
+    "title": "Kathmandu Cultural Tour",
+    "slug": "kathmandu-cultural-tour",
+    "destinationId": 12,
+    "price": 110,
+    "duration": "2 Days",
+    "rating": 4.8,
+    "location": "Kathmandu, Nepal",
+    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
+    "description": "Discover temples, local culture, and heritage sites in Kathmandu."
+  },
+  {
+    "id": 4,
+    "title": "Angkor Wat Sunrise Tour",
+    "slug": "angkor-wat-sunrise-tour",
+    "destinationId": 13,
+    "price": 120,
+    "duration": "1 Day",
+    "rating": 4.9,
+    "location": "Siem Reap, Cambodia",
+    "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+    "description": "Experience sunrise at Angkor Wat with expert local guides."
+  },
+  {
+    "id": 5,
+    "title": "Phnom Penh City Tour",
+    "slug": "phnom-penh-city-tour",
+    "destinationId": 14,
+    "price": 80,
+    "duration": "1 Day",
+    "rating": 4.6,
+    "location": "Phnom Penh, Cambodia",
+    "image": "https://images.unsplash.com/photo-1603787081207-362bcef7c144",
+    "description": "Explore Cambodia’s capital with historical landmarks and markets."
+  },
+  {
+    "id": 6,
+    "title": "Bangkok Night Market Tour",
+    "slug": "bangkok-night-market-tour",
+    "destinationId": 15,
+    "price": 70,
+    "duration": "6 Hours",
+    "rating": 4.5,
+    "location": "Bangkok, Thailand",
+    "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365",
+    "description": "Experience street food, shopping, and nightlife in Bangkok."
+  },
+  {
+    "id": 7,
+    "title": "Paris City Highlights",
+    "slug": "paris-city-highlights",
+    "destinationId": 16,
+    "price": 150,
+    "duration": "1 Day",
+    "rating": 4.7,
+    "location": "Paris, France",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+    "description": "Visit Eiffel Tower, Louvre, and Seine River cruise."
+  },
+  {
+    "id": 8,
+    "title": "Rome Ancient Ruins Tour",
+    "slug": "rome-ancient-ruins-tour",
+    "destinationId": 17,
+    "price": 140,
+    "duration": "1 Day",
+    "rating": 4.8,
+    "location": "Rome, Italy",
+    "image": "https://images.unsplash.com/photo-1526481280691-3c6c7a7e02d3",
+    "description": "Explore Colosseum, Roman Forum, and historic sites."
+  }
+]

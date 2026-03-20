@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "title": "Angkor Wat Sunrise Tour",
+    "slug": "angkor-wat-sunrise-tour",
+    "location": "siem-reap",
+    "price": 120,
+    "duration": "1 Day",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+    "description": "",
+    "highlights": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+      "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa",
+      "https://images.unsplash.com/photo-1603787081207-362bcef7c144",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      "https://images.unsplash.com/photo-1549880181-56a44cf4a9a5"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Phnom Penh City Tour",
+    "slug": "phnom-penh-city-tour",
+    "location": "phnom-penh",
+    "price": 1000,
+    "duration": "5 Day",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1603787081207-362bcef7c144",
+    "description": "",
+    "highlights": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+      "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa",
+      "https://images.unsplash.com/photo-1603787081207-362bcef7c144",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      "https://images.unsplash.com/photo-1549880181-56a44cf4a9a5"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Koh Rong Island Escape",
+    "slug": "koh-rong-island-escape",
+    "location": "koh-rong",
+    "price": 180,
+    "duration": "1 Day",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "description": "",
+    "highlights": [],
+    "gallery": [
+      "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+      "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa",
+      "https://images.unsplash.com/photo-1603787081207-362bcef7c144",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      "https://images.unsplash.com/photo-1549880181-56a44cf4a9a5"
+    ]
+  },
+  {
+    "title": "Trip to Kedarnath",
+    "location": "Kedarnath",
+    "price": 20000,
+    "duration": "5",
+    "rating": 4.3,
+    "slug": "trip-to-kedarnath",
+    "image": "https://himalayanwarrior.com/wp-content/uploads/2022/06/i5-819x1024.jpg",
+    "id": 1773810812486,
+    "gallery": [
+      "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
+      "https://images.unsplash.com/photo-1602002418816-5c0aeef426aa",
+      "https://images.unsplash.com/photo-1603787081207-362bcef7c144",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      "https://images.unsplash.com/photo-1549880181-56a44cf4a9a5"
+    ]
+  },
+  {
+    "title": "Trip to Kedarnath",
+    "location": "Kedarnath",
+    "price": 20000,
+    "duration": "5",
+    "rating": 4.9,
+    "slug": "trip-to-kedarnath",
+    "image": "https://himalayanwarrior.com/wp-content/uploads/2022/06/i5-819x1024.jpg",
+    "id": 1773816328914
+  }
+]

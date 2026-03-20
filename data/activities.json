@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "name": "Sightseeing",
+    "slug": "sightseeing",
+    "icon": "landmark"
+  },
+  {
+    "id": 2,
+    "name": "Temple Visit",
+    "slug": "temple-visit",
+    "icon": "building"
+  },
+  {
+    "id": 3,
+    "name": "Backwater Cruise",
+    "slug": "backwater-cruise",
+    "icon": "ship"
+  },
+  {
+    "id": 4,
+    "name": "Trekking",
+    "slug": "trekking",
+    "icon": "mountain"
+  },
+  {
+    "id": 5,
+    "name": "Beach Experience",
+    "slug": "beach",
+    "icon": "umbrella"
+  },
+  {
+    "id": 6,
+    "name": "Desert Safari",
+    "slug": "desert-safari",
+    "icon": "sun"
+  },
+  {
+    "id": 7,
+    "name": "Scuba Diving",
+    "slug": "scuba-diving",
+    "icon": "fish"
+  },
+  {
+    "id": 8,
+    "name": "Cultural Experience",
+    "slug": "cultural",
+    "icon": "theater"
+  },
+  {
+    "id": 9,
+    "name": "Food Tour",
+    "slug": "food-tour",
+    "icon": "utensils"
+  },
+  {
+    "id": 10,
+    "name": "City Tour",
+    "slug": "city-tour",
+    "icon": "map"
+  },
+  {
+    "id": 11,
+    "name": "Wildlife Safari",
+    "slug": "wildlife",
+    "icon": "paw"
+  },
+  {
+    "id": 12,
+    "name": "Adventure Sports",
+    "slug": "adventure",
+    "icon": "zap"
+  }
+]
