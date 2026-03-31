@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌏 Travel App – Cambodia Exploration Platform
 
-## Getting Started
+![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 
-First, run the development server:
+A modern, full-stack travel web application built with **Next.js**, designed to help users explore destinations, book trips, and manage travel experiences seamlessly.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Live Demo
+🚧 Currently under development — deployment coming soon.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📌 Overview
 
-## Learn More
+This project is a **travel booking and exploration platform** focused on Cambodia. It allows users to browse destinations, view tours, explore events, and manage bookings. It also includes an **admin dashboard** for managing travel data.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ✨ Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 👤 User Features
+- 🔍 Search destinations and trips  
+- 🏝 Browse featured destinations  
+- 📅 Explore events and travel packages  
+- 🧾 Book trips and manage bookings  
+- 🔐 User authentication (Login / Signup)  
 
-## Deploy on Vercel
+### 🛠 Admin Features
+- 📊 Admin dashboard  
+- ➕ Add / edit / delete:
+  - Destinations  
+  - Tours  
+  - Activities  
+  - Trips  
+- 📋 Manage bookings  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🧑‍💻 Tech Stack
+
+### Frontend
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
+
+### Backend
+- Next.js API Routes
+- JSON-based mock data (temporary)
+
+### Tools & Libraries
+- Radix UI / Custom UI components  
+- Lucide Icons  
+- ESLint  
+
+---
+
+## 📂 Project Structure
