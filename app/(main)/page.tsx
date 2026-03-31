@@ -1,17 +1,17 @@
-import HeroSection from "@/components/HeroSection"
-import FeaturedDestinations from "@/components/sections/FeaturedDestinations"
-import TourPackages from "@/components/sections/TourPackages"
-import ExploreSection from "@/components/ExploreSection"
-import EventsSection from "@/components/EventsSection"
-import Testimonials from "@/components/sections/Testimonials"
-import BlogSection from "@/components/sections/BlogSection"
-import Navbar from "@/components/layout/Navbar"
-import Footer from "@/components/layout/Footer"
+import HeroSection from "@/components/HeroSection";
+import FeaturedDestinations from "@/components/sections/FeaturedDestinations";
+import TourPackages from "@/components/sections/TourPackages";
+import ExploreSection from "@/components/ExploreSection";
+import EventsSection from "@/components/EventsSection";
+import Testimonials from "@/components/sections/Testimonials";
+import BlogSection from "@/components/sections/BlogSection";
 
 async function getHomeData() {
   const res = await fetch("http://localhost:3000/api/home", {
     cache: "no-store",
   });
+
+  console.log(res.json);
 
   if (!res.ok) {
     throw new Error("Failed to fetch home data");
@@ -21,11 +21,9 @@ async function getHomeData() {
 }
 
 export default async function Home() {
-   const data = await getHomeData();
+  const data = await getHomeData();
   return (
     <main>
-      {/* <Navbar /> */}
-
       <HeroSection />
 
       <FeaturedDestinations destination={data?.featuredDestinations} />
@@ -39,9 +37,6 @@ export default async function Home() {
       <Testimonials testimonials={data?.testimonials} />
 
       <BlogSection blogs={data?.blogs} />
-
-      {/* <Footer /> */}
-
     </main>
-  )
+  );
 }

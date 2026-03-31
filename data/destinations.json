@@ -1,146 +1,459 @@
 [
   {
+    "id": 1,
+    "name": "Asia",
+    "slug": "asia",
+    "description": "A diverse continent of ancient traditions, modern cities, tropical beaches, and breathtaking landscapes.",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+    "parentId": null,
+    "type": "continent"
+  },
+  {
     "id": 2,
     "name": "Europe",
     "slug": "europe",
-    "description": "Historic cities, art, and culture",
+    "description": "Historic cities, art, architecture, and some of the world’s most iconic travel destinations.",
     "image": "https://images.unsplash.com/photo-1467269204594-9661b134dd2b",
     "parentId": null,
-    "createdAt": "2026-03-19T10:00:00Z"
+    "type": "continent"
   },
   {
     "id": 3,
-    "name": "India",
-    "slug": "india",
-    "description": "A land of culture, heritage, and diversity",
-    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da",
-    "parentId": 1,
-    "createdAt": "2026-03-19T10:00:00Z"
+    "name": "North America",
+    "slug": "north-america",
+    "description": "A continent of vibrant cities, natural wonders, and diverse cultures.",
+    "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad",
+    "parentId": null,
+    "type": "continent"
   },
   {
     "id": 4,
-    "name": "Nepal",
-    "slug": "nepal",
-    "description": "Home to the Himalayas and Mount Everest",
+    "name": "South America",
+    "slug": "south-america",
+    "description": "A land of rainforests, mountains, and rich cultural heritage.",
     "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
-    "parentId": 1,
-    "createdAt": "2026-03-19T10:00:00Z"
+    "parentId": null,
+    "type": "continent"
   },
   {
     "id": 5,
-    "name": "Sri Lanka",
-    "slug": "sri-lanka",
-    "description": "Tropical paradise with beaches and wildlife",
-    "image": "https://images.unsplash.com/photo-1588591790958-8b6c2b9c8f7c",
-    "parentId": 1,
-    "createdAt": "2026-03-19T10:00:00Z"
+    "name": "Africa",
+    "slug": "africa",
+    "description": "A continent known for its wildlife, deserts, and vibrant cultures.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "parentId": null,
+    "type": "continent"
   },
   {
     "id": 6,
-    "name": "Cambodia",
-    "slug": "cambodia",
-    "description": "Ancient temples and vibrant culture",
-    "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
-    "parentId": 1,
-    "createdAt": "2026-03-19T10:00:00Z"
+    "name": "Oceania",
+    "slug": "oceania",
+    "description": "A region of island nations, stunning beaches, and unique wildlife.",
+    "image": "https://images.unsplash.com/photo-1502920917128-1aa500764b7c",
+    "parentId": null,
+    "type": "continent"
   },
-  {
-    "id": 7,
-    "name": "Thailand",
-    "slug": "thailand",
-    "description": "Beaches, nightlife, and temples",
-    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
-    "parentId": 1,
-    "createdAt": "2026-03-19T10:00:00Z"
-  },
-  {
-    "id": 8,
-    "name": "France",
-    "slug": "france",
-    "description": "Romantic cities and fine cuisine",
-    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
-    "parentId": 2,
-    "createdAt": "2026-03-19T10:00:00Z"
-  },
-  {
-    "id": 9,
-    "name": "Italy",
-    "slug": "italy",
-    "description": "Historic ruins and beautiful landscapes",
-    "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad",
-    "parentId": 2,
-    "createdAt": "2026-03-19T10:00:00Z"
-  },
+
   {
     "id": 10,
-    "name": "Delhi",
-    "slug": "delhi",
-    "description": "Capital of India",
-    "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5",
-    "parentId": 3,
-    "createdAt": "2026-03-19T10:00:00Z"
+    "name": "Japan",
+    "slug": "japan",
+    "description": "A unique blend of ancient culture and futuristic innovation.",
+    "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e",
+    "parentId": 1,
+    "type": "country"
   },
   {
     "id": 11,
-    "name": "Jaipur",
-    "slug": "jaipur",
-    "description": "Pink city of India",
-    "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41",
-    "parentId": 3,
-    "createdAt": "2026-03-19T10:00:00Z"
+    "name": "Thailand",
+    "slug": "thailand",
+    "description": "A tropical paradise known for beaches, nightlife, and temples.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "parentId": 1,
+    "type": "country"
   },
   {
     "id": 12,
-    "name": "Kathmandu",
-    "slug": "kathmandu",
-    "description": "Capital of Nepal",
-    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
-    "parentId": 4,
-    "createdAt": "2026-03-19T10:00:00Z"
+    "name": "United Arab Emirates",
+    "slug": "uae",
+    "description": "A luxury destination with futuristic cities and desert landscapes.",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    "parentId": 1,
+    "type": "country"
   },
   {
     "id": 13,
-    "name": "Siem Reap",
-    "slug": "siem-reap",
-    "description": "Gateway to Angkor Wat",
-    "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
-    "parentId": 6,
-    "createdAt": "2026-03-19T10:00:00Z"
+    "name": "Indonesia",
+    "slug": "indonesia",
+    "description": "An archipelago known for beaches, volcanoes, and culture.",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    "parentId": 1,
+    "type": "country"
   },
   {
     "id": 14,
-    "name": "Phnom Penh",
-    "slug": "phnom-penh",
-    "description": "Capital of Cambodia",
-    "image": "https://images.unsplash.com/photo-1603787081207-362bcef7c144",
-    "parentId": 6,
-    "createdAt": "2026-03-19T10:00:00Z"
+    "name": "India",
+    "slug": "india",
+    "description": "A vibrant country known for culture, history, food, and diversity.",
+    "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da",
+    "parentId": 1,
+    "type": "country"
   },
   {
     "id": 15,
+    "name": "Maldives",
+    "slug": "maldives",
+    "description": "A tropical paradise known for luxury resorts and crystal-clear waters.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "parentId": 1,
+    "type": "country"
+  },
+
+  {
+    "id": 100,
+    "name": "Tokyo",
+    "slug": "tokyo",
+    "description": "A dazzling metropolis blending tradition and technology.",
+    "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf",
+    "parentId": 10,
+    "type": "city",
+    "destinationType": "city"
+  },
+  {
+    "id": 101,
+    "name": "Kyoto",
+    "slug": "kyoto",
+    "description": "Famous for temples, gardens, and traditional culture.",
+    "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e",
+    "parentId": 10,
+    "type": "city",
+    "destinationType": "city"
+  },
+  {
+    "id": 102,
+    "name": "Osaka",
+    "slug": "osaka",
+    "description": "A lively city known for street food and nightlife.",
+    "image": "https://images.unsplash.com/photo-1549692520-acc6669e2f0c",
+    "parentId": 10,
+    "type": "city",
+    "destinationType": "city"
+  },
+
+  {
+    "id": 110,
     "name": "Bangkok",
     "slug": "bangkok",
-    "description": "Capital of Thailand",
+    "description": "A vibrant city of nightlife, food, and temples.",
     "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365",
-    "parentId": 7,
-    "createdAt": "2026-03-19T10:00:00Z"
+    "parentId": 11,
+    "type": "city",
+    "destinationType": "city"
   },
   {
-    "id": 16,
+    "id": 111,
+    "name": "Phuket",
+    "slug": "phuket",
+    "description": "A tropical island famous for beaches and nightlife.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "parentId": 11,
+    "type": "city",
+    "destinationType": "island"
+  },
+  {
+    "id": 112,
+    "name": "Chiang Mai",
+    "slug": "chiang-mai",
+    "description": "A cultural city with temples and mountains.",
+    "image": "https://images.unsplash.com/photo-1589394815804-964ed0be2eb5",
+    "parentId": 11,
+    "type": "city",
+    "destinationType": "city"
+  },
+
+  {
+    "id": 120,
+    "name": "Dubai",
+    "slug": "dubai",
+    "description": "A global city known for luxury, shopping, and skyscrapers.",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    "parentId": 12,
+    "type": "city",
+    "destinationType": "city"
+  },
+  {
+    "id": 121,
+    "name": "Abu Dhabi",
+    "slug": "abu-dhabi",
+    "description": "The capital city known for luxury and culture.",
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    "parentId": 12,
+    "type": "city",
+    "destinationType": "city"
+  },
+
+  {
+    "id": 130,
+    "name": "Bali",
+    "slug": "bali",
+    "description": "An island paradise known for beaches and spirituality.",
+    "image": "https://images.unsplash.com/photo-1506744038136-46273834b3fb",
+    "parentId": 13,
+    "type": "city",
+    "destinationType": "island"
+  },
+
+  {
+    "id": 140,
+    "name": "Mumbai",
+    "slug": "mumbai",
+    "description": "The financial capital of India, known for Bollywood and nightlife.",
+    "image": "https://images.unsplash.com/photo-1562979314-bee7453e911c",
+    "parentId": 14,
+    "type": "city",
+    "destinationType": "city"
+  },
+  {
+    "id": 141,
+    "name": "Delhi",
+    "slug": "delhi",
+    "description": "India's capital with rich history and iconic monuments.",
+    "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5",
+    "parentId": 14,
+    "type": "city",
+    "destinationType": "city"
+  },
+  {
+    "id": 142,
+    "name": "Jaipur",
+    "slug": "jaipur",
+    "description": "The Pink City known for forts, palaces, and heritage.",
+    "image": "https://images.unsplash.com/photo-1599661046827-dacff0c0f09d",
+    "parentId": 14,
+    "type": "city",
+    "destinationType": "city"
+  },
+  {
+    "id": 143,
+    "name": "Goa",
+    "slug": "goa",
+    "description": "Famous for beaches, nightlife, and Portuguese heritage.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "parentId": 14,
+    "type": "city",
+    "destinationType": "region"
+  },
+  {
+    "id": 144,
+    "name": "Kerala",
+    "slug": "kerala",
+    "description": "Known for backwaters, greenery, and serene landscapes.",
+    "image": "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944",
+    "parentId": 14,
+    "type": "city",
+    "destinationType": "region"
+  },
+
+  {
+    "id": 150,
+    "name": "Male",
+    "slug": "male",
+    "description": "The capital city of Maldives with island charm.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "parentId": 15,
+    "type": "city",
+    "destinationType": "island"
+  },
+
+  {
+    "id": 20,
+    "name": "France",
+    "slug": "france",
+    "description": "A country known for romance, cuisine, and iconic landmarks.",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+    "parentId": 2,
+    "type": "country"
+  },
+  {
+    "id": 21,
+    "name": "Italy",
+    "slug": "italy",
+    "description": "Historic ruins, art, and world-class cuisine.",
+    "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad",
+    "parentId": 2,
+    "type": "country"
+  },
+
+  {
+    "id": 200,
     "name": "Paris",
     "slug": "paris",
-    "description": "City of love",
+    "description": "The city of love, fashion, and art.",
     "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
-    "parentId": 8,
-    "createdAt": "2026-03-19T10:00:00Z"
+    "parentId": 20,
+    "type": "city",
+    "destinationType": "city"
   },
   {
-    "id": 17,
+    "id": 201,
+    "name": "Nice",
+    "slug": "nice",
+    "description": "A beautiful coastal city on the French Riviera.",
+    "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad",
+    "parentId": 20,
+    "type": "city",
+    "destinationType": "city"
+  },
+
+  {
+    "id": 210,
     "name": "Rome",
     "slug": "rome",
-    "description": "Historic capital of Italy",
+    "description": "A historic city filled with ancient wonders.",
     "image": "https://images.unsplash.com/photo-1526481280691-3c6c7a7e02d3",
-    "parentId": 9,
-    "createdAt": "2026-03-19T10:00:00Z"
+    "parentId": 21,
+    "type": "city",
+    "destinationType": "city"
+  },
+  {
+    "id": 211,
+    "name": "Venice",
+    "slug": "venice",
+    "description": "A romantic canal city with historic charm.",
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+    "parentId": 21,
+    "type": "city",
+    "destinationType": "city"
+  },
+  {
+    "id": 212,
+    "name": "Milan",
+    "slug": "milan",
+    "description": "A global fashion and business hub.",
+    "image": "https://images.unsplash.com/photo-1526481280691-3c6c7a7e02d3",
+    "parentId": 21,
+    "type": "city",
+    "destinationType": "city"
+  },
+  {
+    "id": 213,
+    "name": "Tuscany",
+    "slug": "tuscany",
+    "description": "A scenic region known for vineyards and countryside.",
+    "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad",
+    "parentId": 21,
+    "type": "city",
+    "destinationType": "region"
+  },
+
+  {
+    "id": 30,
+    "name": "United States",
+    "slug": "usa",
+    "description": "A diverse country with iconic cities and natural wonders.",
+    "image": "https://images.unsplash.com/photo-1505761671935-60b3a7427bad",
+    "parentId": 3,
+    "type": "country"
+  },
+
+  {
+    "id": 300,
+    "name": "New York",
+    "slug": "new-york",
+    "description": "The city that never sleeps.",
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401",
+    "parentId": 30,
+    "type": "city",
+    "destinationType": "city"
+  },
+  {
+    "id": 301,
+    "name": "Los Angeles",
+    "slug": "los-angeles",
+    "description": "The entertainment capital.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "parentId": 30,
+    "type": "city",
+    "destinationType": "city"
+  },
+  {
+    "id": 302,
+    "name": "San Francisco",
+    "slug": "san-francisco",
+    "description": "Golden Gate Bridge city.",
+    "image": "https://images.unsplash.com/photo-1501594907352-04cda38ebc29",
+    "parentId": 30,
+    "type": "city",
+    "destinationType": "city"
+  },
+  {
+    "id": 303,
+    "name": "Chicago",
+    "slug": "chicago",
+    "description": "Famous for architecture.",
+    "image": "https://images.unsplash.com/photo-1494526585095-c41746248156",
+    "parentId": 30,
+    "type": "city",
+    "destinationType": "city"
+  },
+  {
+    "id": 310,
+    "name": "Disneyland",
+    "slug": "disneyland",
+    "description": "A magical theme park experience.",
+    "image": "https://images.unsplash.com/photo-1522770179533-24471fcdba45",
+    "parentId": 30,
+    "type": "city",
+    "destinationType": "attraction"
+  },
+
+  {
+    "id": 50,
+    "name": "Egypt",
+    "slug": "egypt",
+    "description": "Home to ancient pyramids.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "parentId": 5,
+    "type": "country"
+  },
+  {
+    "id": 500,
+    "name": "Cairo",
+    "slug": "cairo",
+    "description": "Historic city near pyramids.",
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "parentId": 50,
+    "type": "city",
+    "destinationType": "city"
+  },
+
+  {
+    "id": 60,
+    "name": "Australia",
+    "slug": "australia",
+    "description": "Beaches and wildlife.",
+    "image": "https://images.unsplash.com/photo-1502920917128-1aa500764b7c",
+    "parentId": 6,
+    "type": "country"
+  },
+  {
+    "id": 600,
+    "name": "Sydney",
+    "slug": "sydney",
+    "description": "Famous harbour city.",
+    "image": "https://images.unsplash.com/photo-1506976785307-8732e854ad03",
+    "parentId": 60,
+    "type": "city",
+    "destinationType": "city"
+  },
+  {
+    "id": 601,
+    "name": "Melbourne",
+    "slug": "melbourne",
+    "description": "Cultural capital.",
+    "image": "https://images.unsplash.com/photo-1506976785307-8732e854ad03",
+    "parentId": 60,
+    "type": "city",
+    "destinationType": "city"
   }
 ]

@@ -1,100 +1,194 @@
 [
   {
     "id": 1,
-    "title": "Delhi Heritage Walk",
-    "slug": "delhi-heritage-walk",
-    "destinationId": 10,
-    "activityIds": [1, 8, 10],
-    "tripTypeIds": [1],
-    "price": 60,
+    "title": "Tokyo City Highlights Tour",
+    "slug": "tokyo-city-highlights",
+    "destinationId": 100,
+    "price": 120,
     "duration": "1 Day",
-    "rating": 4.6,
-    "location": "Delhi, India",
-    "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5",
-    "description": "Explore Old Delhi’s rich history with a guided walking tour through iconic landmarks."
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf",
+    "description": "Discover Tokyo’s top attractions.",
+    "activityIds": [1, 2],
+    "tripType": "city"
   },
   {
     "id": 2,
-    "title": "Jaipur Royal Palace Tour",
-    "slug": "jaipur-royal-palace-tour",
-    "destinationId": 11,
-    "price": 90,
-    "duration": "1 Day",
+    "title": "Tokyo Night Food Experience",
+    "slug": "tokyo-night-food",
+    "destinationId": 100,
+    "price": 95,
+    "duration": "4 Hours",
     "rating": 4.7,
-    "location": "Jaipur, India",
-    "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41",
-    "description": "Visit Amber Fort, City Palace, and Hawa Mahal in this royal Jaipur experience."
+    "image": "https://images.unsplash.com/photo-1554797589-7241bb691973",
+    "description": "Taste authentic Japanese street food.",
+    "activityIds": [3],
+    "tripType": "food"
   },
+
   {
     "id": 3,
-    "title": "Kathmandu Cultural Tour",
-    "slug": "kathmandu-cultural-tour",
-    "destinationId": 12,
+    "title": "Kyoto Temple Tour",
+    "slug": "kyoto-temple-tour",
+    "destinationId": 101,
     "price": 110,
-    "duration": "2 Days",
-    "rating": 4.8,
-    "location": "Kathmandu, Nepal",
-    "image": "https://images.unsplash.com/photo-1544735716-392fe2489ffa",
-    "description": "Discover temples, local culture, and heritage sites in Kathmandu."
-  },
-  {
-    "id": 4,
-    "title": "Angkor Wat Sunrise Tour",
-    "slug": "angkor-wat-sunrise-tour",
-    "destinationId": 13,
-    "price": 120,
     "duration": "1 Day",
-    "rating": 4.9,
-    "location": "Siem Reap, Cambodia",
-    "image": "https://images.unsplash.com/photo-1589302168068-964664d93dc0",
-    "description": "Experience sunrise at Angkor Wat with expert local guides."
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e",
+    "description": "Explore temples and culture.",
+    "activityIds": [1, 4],
+    "tripType": "culture"
   },
+
   {
     "id": 5,
-    "title": "Phnom Penh City Tour",
-    "slug": "phnom-penh-city-tour",
-    "destinationId": 14,
+    "title": "Bangkok Temple Tour",
+    "slug": "bangkok-temples",
+    "destinationId": 110,
     "price": 80,
     "duration": "1 Day",
     "rating": 4.6,
-    "location": "Phnom Penh, Cambodia",
-    "image": "https://images.unsplash.com/photo-1603787081207-362bcef7c144",
-    "description": "Explore Cambodia’s capital with historical landmarks and markets."
-  },
-  {
-    "id": 6,
-    "title": "Bangkok Night Market Tour",
-    "slug": "bangkok-night-market-tour",
-    "destinationId": 15,
-    "price": 70,
-    "duration": "6 Hours",
-    "rating": 4.5,
-    "location": "Bangkok, Thailand",
     "image": "https://images.unsplash.com/photo-1508009603885-50cf7c579365",
-    "description": "Experience street food, shopping, and nightlife in Bangkok."
+    "description": "Visit famous temples.",
+    "activityIds": [1],
+    "tripType": "culture"
   },
+
   {
     "id": 7,
-    "title": "Paris City Highlights",
-    "slug": "paris-city-highlights",
-    "destinationId": 16,
-    "price": 150,
-    "duration": "1 Day",
-    "rating": 4.7,
-    "location": "Paris, France",
-    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
-    "description": "Visit Eiffel Tower, Louvre, and Seine River cruise."
-  },
-  {
-    "id": 8,
-    "title": "Rome Ancient Ruins Tour",
-    "slug": "rome-ancient-ruins-tour",
-    "destinationId": 17,
+    "title": "Phuket Island Hopping",
+    "slug": "phuket-island-hopping",
+    "destinationId": 111,
     "price": 140,
     "duration": "1 Day",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "description": "Explore beaches and islands.",
+    "activityIds": [5],
+    "tripType": "adventure"
+  },
+
+  {
+    "id": 9,
+    "title": "Dubai Desert Safari",
+    "slug": "dubai-desert-safari",
+    "destinationId": 120,
+    "price": 130,
+    "duration": "6 Hours",
     "rating": 4.8,
-    "location": "Rome, Italy",
-    "image": "https://images.unsplash.com/photo-1526481280691-3c6c7a7e02d3",
-    "description": "Explore Colosseum, Roman Forum, and historic sites."
+    "image": "https://images.unsplash.com/photo-1512453979798-5ea266f8880c",
+    "description": "Dune bashing and camel rides.",
+    "activityIds": [6],
+    "tripType": "adventure"
+  },
+
+  {
+    "id": 13,
+    "title": "Paris City Highlights",
+    "slug": "paris-highlights",
+    "destinationId": 200,
+    "price": 150,
+    "duration": "1 Day",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34",
+    "description": "Explore Eiffel Tower & Louvre.",
+    "activityIds": [1],
+    "tripType": "city"
+  },
+
+  {
+    "id": 17,
+    "title": "New York City Tour",
+    "slug": "new-york-tour",
+    "destinationId": 300,
+    "price": 160,
+    "duration": "1 Day",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1534447677768-be436bb09401",
+    "description": "Visit Times Square & Central Park.",
+    "activityIds": [1],
+    "tripType": "city"
+  },
+
+  {
+    "id": 21,
+    "title": "Cairo Pyramids Tour",
+    "slug": "cairo-pyramids",
+    "destinationId": 500,
+    "price": 120,
+    "duration": "1 Day",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "description": "Visit pyramids of Giza.",
+    "activityIds": [1],
+    "tripType": "culture"
+  },
+
+  {
+    "id": 23,
+    "title": "Sydney Harbour Tour",
+    "slug": "sydney-harbour",
+    "destinationId": 600,
+    "price": 135,
+    "duration": "1 Day",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1506976785307-8732e854ad03",
+    "description": "Visit Opera House.",
+    "activityIds": [1],
+    "tripType": "city"
+  },
+
+
+  {
+    "id": 1000,
+    "title": "Jaipur Heritage Tour",
+    "slug": "jaipur-heritage-tour",
+    "destinationId": 142,
+    "price": 8999,
+    "duration": "3 Days",
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1599661046827-dacff0c0f09d",
+    "description": "Explore forts and palaces.",
+    "activityIds": [1, 6],
+    "tripType": "culture"
+  },
+  {
+    "id": 1001,
+    "title": "Jaipur Luxury Palace Stay",
+    "slug": "jaipur-luxury-palace",
+    "destinationId": 142,
+    "price": 15999,
+    "duration": "2 Days",
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+    "description": "Luxury palace experience.",
+    "activityIds": [7],
+    "tripType": "luxury"
+  },
+  {
+    "id": 1002,
+    "title": "Jaipur Desert Safari",
+    "slug": "jaipur-desert-safari",
+    "destinationId": 142,
+    "price": 6999,
+    "duration": "2 Days",
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+    "description": "Camel ride & desert camp.",
+    "activityIds": [6],
+    "tripType": "adventure"
+  },
+  {
+    "id": 1003,
+    "title": "Jaipur Food Walk",
+    "slug": "jaipur-food-tour",
+    "destinationId": 142,
+    "price": 2999,
+    "duration": "1 Day",
+    "rating": 4.6,
+    "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1",
+    "description": "Taste local food.",
+    "activityIds": [3],
+    "tripType": "food"
   }
 ]

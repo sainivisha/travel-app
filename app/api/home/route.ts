@@ -7,14 +7,14 @@ export async function GET() {
 
     const destinations = JSON.parse(
       fs.readFileSync(
-        path.join(process.cwd(),"data/featuredDestination.json"),
+        path.join(process.cwd(),"data/destinations.json"),
         "utf-8"
       )
     )
 
     const tours = JSON.parse(
       fs.readFileSync(
-        path.join(process.cwd(),"data/tours.json"),
+        path.join(process.cwd(),"data/trips.json"),
         "utf-8"
       )
     )

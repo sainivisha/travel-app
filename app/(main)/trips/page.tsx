@@ -1,7 +1,7 @@
 import DestinationGrid from "@/components/DestinationGrid";
 import Container from "@/components/layout/Container";
 
-export default function DestinationsPage() {
+export default function TripsPage() {
   return (
     <main className="py-24">
       <Container>
