@@ -1,4 +1,4 @@
-# 🌏 Travel App – Cambodia Exploration Platform
+# 🌏 TravelEngine App  
 
 ![Status](https://img.shields.io/badge/status-in%20progress-yellow)
 
