@@ -1,20 +1,34 @@
-import TripDetailClient from "@/components/trips/TripDetailClient";
+import TripDetailClient from "@/components/trips/TripDetail/TripDetailClient";
+import { transformTrip } from "@/lib/utils/trip";
 
-async function getTrip(slug: string) {
-  const res = await fetch("http://localhost:3000/api/admin/trips", {
-    cache: "no-store",
-  });
+async function getTrip(tripSlug: string) {
+  console.log("Slug:", tripSlug);
 
-  const trips = await res.json();
+  const res = await fetch(
+    `${process.env.NEXT_PUBLIC_TRAVEL_ENGINE_TRIP_ENDPOINT}/slug/${tripSlug}`,
+    {
+      headers: {
+        Authorization: process.env.TRAVEL_ENGINE_AUTH!,
+        "x-user-id": "tarunrohila@gmail.com",
+        "x-filter-active": "true",
+        "Correlation-Id": "test-travel",
+      },
+      next: { revalidate: 60 },
+    },
+  );
 
-  console.log(trips, slug);
+  const data = await res.json();
+  console.log("API DATA:", data);
 
-  return trips.find((t: any) => t.slug === slug);
+  return data;
 }
 
 export default async function Page({ params }: any) {
   const param = await params;
-  const trip = await getTrip(param.tripSlug);
 
-  return <TripDetailClient trip={trip} />;
+  const data = await getTrip(param.tripSlug);
+
+  const tripData = transformTrip(data);
+
+  return <TripDetailClient trip={tripData} />;
 }

@@ -1,31 +1,31 @@
-import { NextResponse } from "next/server"
-import fs from "fs"
-import path from "path"
-
-const filePath = path.join(process.cwd(),"data/bookings.json")
-
-export async function GET() {
-  const data = fs.readFileSync(filePath,"utf-8")
-  return NextResponse.json(JSON.parse(data))
-}
-
 export async function POST(req: Request) {
+  try {
+    const body = await req.json();
 
-  const booking = await req.json()
+    console.log("📦 Incoming payload:", body);
 
-  const data = fs.readFileSync(filePath,"utf-8")
-  const bookings = JSON.parse(data)
+    const res = await fetch(
+      "https://travelengine-booking-iapi-152348523675.us-central1.run.app/v1/bookings",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: "SSSSS",
+          "x-user-id": "tarunrohila@gmail.com",
+          "x-filter-active": "true",
+          "Correlation-Id": "test-travel",
+        },
+        body: JSON.stringify(body),
+      },
+    );
 
-  const newBooking = {
-    id: Date.now(),
-    ...booking,
-    status: "confirmed",
-    createdAt: new Date().toISOString()
+    const text = await res.text();
+    console.log("🌍 Backend response:", text);
+
+    return new Response(text, { status: res.status });
+  } catch (err) {
+    console.error("🔥 Proxy error:", err);
+
+    return Response.json({ error: "Proxy failed" }, { status: 500 });
   }
-
-  bookings.push(newBooking)
-
-  fs.writeFileSync(filePath, JSON.stringify(bookings,null,2))
-
-  return NextResponse.json(newBooking)
 }

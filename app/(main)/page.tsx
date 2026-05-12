@@ -30,7 +30,7 @@ export default async function Home() {
 
       <TourPackages tours={data?.tours} />
 
-      <ExploreSection />
+      {/* <ExploreSection /> */}
 
       <EventsSection events={data?.events} />
 

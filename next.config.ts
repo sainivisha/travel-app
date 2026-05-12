@@ -15,7 +15,24 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "himalayanwarrior.com",
       },
+      {
+        protocol: "https",
+        hostname: "example.com",
+      },
+      {
+        protocol: "https",
+        hostname: "www.worldtribune.org",
+      },
     ],
+  },
+  async rewrites() {
+    return [
+      {
+        source: "/api/proxy/bookings",
+        destination:
+          "https://travelengine-booking-iapi-152348523675.us-central1.run.app/v1/bookings",
+      },
+    ];
   },
 };
 

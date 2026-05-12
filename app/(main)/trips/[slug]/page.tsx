@@ -1,20 +1,20 @@
-import TripDetailClient from "@/components/trips/TripDetailClient"
+import TripDetailClient from "@/components/trips/TripDetail/TripDetailClient";
 
 async function getTrip(slug: string) {
   const res = await fetch("http://localhost:3000/api/admin/trips", {
     cache: "no-store",
-  })
+  });
 
-  const trips = await res.json()
+  const trips = await res.json();
 
-  console.log(trips,slug)
+  console.log(trips, slug);
 
-  return trips.find((t: any) => t.slug === slug)
+  return trips.find((t: any) => t.slug === slug);
 }
 
 export default async function Page({ params }: any) {
-    const param = await params;
-  const trip = await getTrip(param.slug)
+  const param = await params;
+  const trip = await getTrip(param.slug);
 
-  return <TripDetailClient trip={trip} />
+  return <TripDetailClient trip={trip} />;
 }
